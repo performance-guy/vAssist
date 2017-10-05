@@ -1,0 +1,7 @@
+applications:
+- name: vAssist
+  memory: 128M
+  buildpack: https://github.com/salmansaleem920/vAssist
+  timeout: 60
+  services:
+  - MyDB
